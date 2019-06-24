@@ -141,6 +141,121 @@ table {
           box-sizing: border-box;
 }
 
+html {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.75rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.center-child {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.flex-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.align-start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
 .wrapper {
   max-width: 1300px;
   width: 100%;
@@ -179,5 +294,107 @@ table {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
+}
+
+.btn {
+  padding: 1rem 3rem;
+  color: #ffffff;
+  background: #ef9632;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  letter-spacing: 0.04rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #ef4534;
+}
+
+.btn-primary {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 1px solid #fff;
+  color: #ffffff;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+
+.form-control::-ms-input-placeholder {
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+
+.form-control::placeholder {
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+
+.padding {
+  padding: 4rem 0;
+}
+
+.heading {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.sub-heading {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 0.8rem;
+  letter-spacing: 0.05rem;
+}
+
+.main-text {
+  font-size: 0.9rem;
+  font-weight: 300;
+  letter-spacing: 0.04rem;
+}
+
+.header {
+  padding: 1.5rem 0;
+  position: absolute;
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #cac6c6;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 /*# sourceMappingURL=main.css.map */
