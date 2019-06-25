@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,700&display=swap");
 html,
 body,
 div,
@@ -462,5 +463,20 @@ p {
 
 .calender {
   margin-left: 6rem;
+}
+
+.plan {
+  padding: 5rem;
+  background: #212529;
+}
+
+.plan-1 h2 {
+  font-size: 3.3rem;
+  color: #ffffff;
+}
+
+.plan-text {
+  color: #84a4ac;
+  margin: 3rem 0;
 }
 /*# sourceMappingURL=main.css.map */
