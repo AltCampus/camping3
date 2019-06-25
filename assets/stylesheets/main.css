@@ -479,4 +479,102 @@ p {
   color: #84a4ac;
   margin: 3rem 0;
 }
+
+.client-main {
+  margin-bottom: 2rem;
+}
+
+.client-main h2 {
+  padding: 5rem 0;
+}
+
+.client-main i {
+  margin-left: 18rem;
+  margin-right: 18rem;
+  color: #ff9100;
+  font-size: 3rem;
+}
+
+.client-text {
+  color: #212529;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 4rem;
+  line-height: 1rem;
+}
+
+.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 3rem;
+  width: 50rem;
+}
+
+.profile-pic img {
+  border-radius: 50%;
+}
+
+.profile-text {
+  padding-left: 2rem;
+}
+
+.profile-text h4 {
+  font-size: 1rem;
+  margin-left: 2rem;
+  color: rgba(255, 0, 0, 0.753);
+}
+
+.profile-text blockquote {
+  color: #212529;
+  font-size: 0.8rem;
+}
+
+@media all and (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+  .grid-col3 {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .grid-col2 {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .profile {
+    margin: 1rem auto;
+    width: 100%;
+  }
+  .client-main {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .client-main i {
+    width: 100%;
+    margin: 0;
+  }
+  .plan {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .plan-1 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .plan-1 h2 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  img {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=main.css.map */
