@@ -9,6 +9,7 @@
 .logo {
   font-size: 2rem;
   font-weight: 400;
+  color: $textLight;
 }
 .dropdown {
   position: relative;
@@ -25,6 +26,19 @@
 }
 .dropdown:hover .dropdown-content {
   display: block;
+}
+.menu-item {
+  margin-left: 1rem;
+}
+.menu-link {
+  text-decoration: none;
+}
+//hero section
+.hero {
+  background: url("../media/banner.jpg") no-repeat;
+  padding: 12rem 0;
+  background-size: cover;
+  color: #fff;
 }
 // prateek
 // Shivam

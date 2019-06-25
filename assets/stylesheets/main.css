@@ -376,6 +376,7 @@ p {
 .logo {
   font-size: 2rem;
   font-weight: 400;
+  color: #ffffff;
 }
 
 .dropdown {
@@ -396,5 +397,20 @@ p {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.menu-item {
+  margin-left: 1rem;
+}
+
+.menu-link {
+  text-decoration: none;
+}
+
+.hero {
+  background: url("../media/banner.jpg") no-repeat;
+  padding: 12rem 0;
+  background-size: cover;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
