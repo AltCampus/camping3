@@ -253,6 +253,7 @@ p {
 .img-responsive {
   width: 100%;
   height: auto;
+  vertical-align: top;
 }
 
 .wrapper {
@@ -415,5 +416,51 @@ p {
 
 .grid-col3 {
   grid-gap: 0;
+}
+
+.recent-tour {
+  margin: 0 auto;
+  margin-bottom: 10rem;
+}
+
+.grid-col3 {
+  grid-gap: 2rem;
+}
+
+.tour-heading {
+  padding: 3rem 0;
+}
+
+.tour-content {
+  background: #0f3285;
+  padding: 2rem 1rem;
+  text-align: left;
+  color: #ffffff;
+}
+
+.tour-content h3 {
+  font-size: 1.3rem;
+  margin-left: 0.7rem;
+}
+
+.tour-content i {
+  color: #cecece;
+  padding: 0.5rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.tour-content-head {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 1rem;
+}
+
+.night {
+  margin-left: 5rem;
+}
+
+.calender {
+  margin-left: 6rem;
 }
 /*# sourceMappingURL=main.css.map */

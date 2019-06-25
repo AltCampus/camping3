@@ -47,8 +47,43 @@
 
 // Our Recent Tour
 
-
-
+.recent-tour{
+    margin: 0 auto;
+    margin-bottom: 10rem;
+}
+.grid-col3{
+    grid-gap: 2rem;
+}
+.tour-heading{
+    padding: 3rem 0;
+}
+.tour-content{
+    background: $tour-content-bg;
+    padding: 2rem 1rem;
+    text-align: left;
+    color: $textLight;
+    h3{
+        font-size: 1.3rem;
+        margin-left: 0.7rem;
+    }
+    i{
+        color: $tour-content;
+        padding: 0.5rem;
+        font-weight: 300;
+        cursor: pointer;
+    }
+}
+.tour-content-head{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 1rem;
+}
+.night{
+    margin-left: 5rem;
+}
+.calender{
+    margin-left: 6rem;
+}
 
 
 
