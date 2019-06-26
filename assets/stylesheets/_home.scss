@@ -10,7 +10,7 @@
   text-align: center;
   margin: 2.8rem 0 10rem 0;
   .exp-card {
-    line-height: 3.7;
+    line-height: 3;
     p {
       line-height: 1.5;
       color: #666;
@@ -26,11 +26,36 @@
     line-height: 1.5;
     color: #666;
   }
+  .fa {
+    margin: 1rem 0;
+  }
   .exp-imgcard:nth-child(even) {
   }
   @media screen and (max-width: 728px) {
     display: grid;
     grid-template-columns: 1fr;
+  }
+}
+.blue-data {
+  background-color: #103385;
+  margin-top: 3rem;
+  .blue-card-sec {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    @media screen and (max-width: 728px) {
+      grid-template-columns: 1fr;
+    }
+    .blue-card {
+      .fa {
+        font-size: 2.3rem;
+      }
+      padding: 6rem 0 6rem 0;
+      text-align: center;
+      color: #fff;
+      @media screen and (max-width: 728px) {
+        padding: 4rem 0 3rem 0;
+      }
+    }
   }
 }
 // Shivam
