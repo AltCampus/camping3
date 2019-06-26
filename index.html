@@ -17,7 +17,9 @@
           <a class="menu-link" href="#">
             <h1 class="logo">Camping</h1>
           </a>
-            <ul class="flex-between">
+          <label class="toggle" for="drop">Menu</label>
+            <input id="drop" type="checkbox" name="" value="" />
+            <ul class="flex-between menu">
                 <li class="menu-item">
                     <a class="menu-link colordark" href="#">Home</a>
                   </li>
@@ -26,8 +28,10 @@
                 </li>
                 <li class="menu-item">
                     <div class="dropdown">
-                      <span><a class="menu-link" href="">More Info</a></span>
+                      <span><a class="menu-link" href="#">More Info &#x25bc;</a></span>
                       <div class="dropdown-content">
+                          <label class="toggle" for="drop"></label>
+                          <input id="drop" type="checkbox" name="" value="" />
                         <ul class="bg-color">
                             <a class="menu-link colour" href="">Features</a>
                             <a class="menu-link colour" href="">Gallery</a><br>
@@ -60,7 +64,7 @@
       <div class="wrapper">
         <div class="grid-col3">
           <div class="footer-item">
-            <address class="contact-item">
+            <address class="contact-item pad2">
                 <h4>Address</h4>
                 <p class="footer-content">
                     Address :  1234 lock, Charlotte, North <br> Carolina, United States
@@ -89,27 +93,27 @@
           <div class="footer-item">
             <h4>Newsletter</h4>
             <p class="footer-content">By subscribing to our mailing list you will <br> always get latest news and updates from <br> us.</p>
-            <div class="mailbox footer-content"><input type="email" placeholder="Enter your email"><span class="fas fa-paper-plane"></span></div>
+            <div class="footer-content pad"><input class="mailbox1" type="email" placeholder="Enter your email"><button class="mailbox2"><span class="fas fa-paper-plane i0"></span></button></div>
           </div>
         </div>
-        <div class="grid-col2">
-          <div class="text-left">
-              <p>
-                  <small>&copy;</small>2018 Camping. All rights reserved | Design by <a href="#">W3layouts.</a>
-              </p>
-          </div>
-          <div class="text-right ">
-            <ul>
-              <a href=""><span class="fab fa-facebook-f i1"></span></a>
-              <a href=""><span class="fab fa-twitter i2"></span></a>
-              <a href=""><span class="fab fa-google-plus-g i3"></span></a>
-              <a href=""><span class="fab fa-dribbble i4"></span></a>
-            </ul>
-          </div>
-
-        </div>
-
-
+      </div>
+    </footer>
+    <footer class="ls-footer">
+      <div class="wrapper">
+          <div class="grid-col2">
+              <div class="text-left footer-text">
+                  <p>
+                      <small>&copy;</small>2018 Camping. All rights reserved | Design by <a href="#">W3layouts.</a>
+                  </p>
+              </div>
+              <div class="text-right footer-icons">
+                <ul>
+                  <a href=""><span class="fab fa-facebook-f i1"></span></a>
+                  <a href=""><span class="fab fa-twitter i2"></span></a>
+                  <a href=""><span class="fab fa-google-plus-g i3"></span></a>
+                  <a href=""><span class="fab fa-dribbble i4"></span></a>
+                </ul>
+              </div>
       </div>
     </footer>
   </body>
