@@ -262,8 +262,16 @@ p {
   }
 }
 
-.fa-smile-o:before {
-  content: "\f118";
+.fa-facebook-f {
+  color: #3b5998;
+}
+
+.fa-twitter {
+  color: #38a1f3;
+}
+
+.fa-google-plus {
+  color: #cc3333;
 }
 
 .wrapper {
@@ -386,6 +394,10 @@ p {
   margin: 2.8rem 0 10rem 0;
 }
 
+.explore-wrapper h2 {
+  margin: 5rem 0;
+}
+
 @media screen and (max-width: 728px) {
   .explore-wrapper .explore-cards {
     -ms-grid-columns: 1fr;
@@ -452,7 +464,7 @@ p {
 .blue-data .blue-card-sec .blue-card {
   padding: 6rem 0 6rem 0;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
 }
 
 .blue-data .blue-card-sec .blue-card .fa {
@@ -463,5 +475,58 @@ p {
   .blue-data .blue-card-sec .blue-card {
     padding: 4rem 0 3rem 0;
   }
+}
+
+.tavel-agent {
+  margin: 4rem 0;
+}
+
+.tavel-agent .wrapper {
+  padding: 0 0;
+}
+
+.tavel-agent h1 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.tavel-agent .agent-post {
+  font-size: 0.67em;
+  color: #ef9632;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-top: 1rem;
+}
+
+.tavel-agent .agent-sec {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+.tavel-agent .agent-sec .agent-post {
+  color: #ef9632;
+}
+
+@media screen and (max-width: 728px) {
+  .tavel-agent .agent-sec {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .tavel-agent .agent-sec .agent {
+    margin-bottom: 3rem;
+  }
+}
+
+.tavel-agent .agent-sec ul li {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  padding: 0.8rem;
+}
+
+.tavel-agent .agent-sec p {
+  color: #666;
 }
 /*# sourceMappingURL=main.css.map */
