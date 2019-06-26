@@ -1,5 +1,4 @@
-// Abhinav
-//header
+// Abhinav header
 .header {
   padding: 1.5rem 0;
   position: absolute;
@@ -73,4 +72,27 @@
 }
 // prateek
 // Shivam
-// Abhinav
+// Abhinav footer
+.footer-content {
+  color: $footerDark;
+}
+.foot-nav a,
+li {
+  text-decoration: none;
+  color: $footerDark;
+  margin-bottom: 0.45rem;
+  &:hover {
+    color: $footerLight;
+  }
+}
+.footer-item {
+  margin: 4rem 1rem;
+}
+.footer-item h4 {
+  margin-bottom: 1.3rem;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+.footer-item p {
+  margin-bottom: 0.7rem;
+}

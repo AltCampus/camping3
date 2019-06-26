@@ -366,6 +366,11 @@ p {
   letter-spacing: 0.04rem;
 }
 
+.footer {
+  background-color: #1e282f;
+  color: #ffffff;
+}
+
 .header {
   padding: 1.5rem 0;
   position: absolute;
@@ -451,5 +456,35 @@ p {
   font-size: 0.9rem;
   margin-top: 0.6rem;
   margin-bottom: 1.5rem;
+}
+
+.footer-content {
+  color: #6f7e8a;
+}
+
+.foot-nav a,
+li {
+  text-decoration: none;
+  color: #6f7e8a;
+  margin-bottom: 0.45rem;
+}
+
+.foot-nav a:hover,
+li:hover {
+  color: #eeeeee;
+}
+
+.footer-item {
+  margin: 4rem 1rem;
+}
+
+.footer-item h4 {
+  margin-bottom: 1.3rem;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+
+.footer-item p {
+  margin-bottom: 0.7rem;
 }
 /*# sourceMappingURL=main.css.map */
