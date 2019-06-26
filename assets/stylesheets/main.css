@@ -138,7 +138,7 @@ table {
 *::after,
 *::before {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -211,11 +211,11 @@ p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .flex-start {
@@ -223,11 +223,11 @@ p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
 }
 
 .flex-center {
@@ -235,11 +235,11 @@ p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .align-start {
@@ -247,8 +247,8 @@ p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .img-responsive {
@@ -272,6 +272,7 @@ p {
 
 .fa-google-plus {
   color: #cc3333;
+  vertical-align: top;
 }
 
 .wrapper {
@@ -284,24 +285,24 @@ p {
 .grid-col2 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-columns: (1fr) [2];
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
 }
 
 .grid-col3 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: (1fr) [3];
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
 }
 
 .grid-col4 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-columns: (1fr) [4];
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem;
 }
 
@@ -310,7 +311,7 @@ p {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -401,7 +402,7 @@ p {
 @media screen and (max-width: 728px) {
   .explore-wrapper .explore-cards {
     -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 0;
   }
 }
@@ -419,7 +420,7 @@ p {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   line-height: 4;
   grid-column-gap: 8rem;
 }
@@ -438,7 +439,7 @@ p {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -450,14 +451,14 @@ p {
 .blue-data .blue-card-sec {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-columns: (1fr) [4];
+  grid-template-columns: repeat(4, 1fr);
 }
 
 @media screen and (max-width: 728px) {
   .blue-data .blue-card-sec {
     -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -501,8 +502,8 @@ p {
 .tavel-agent .agent-sec {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: (1fr) [3];
+  grid-template-columns: repeat(3, 1fr);
   text-align: center;
 }
 
@@ -513,7 +514,7 @@ p {
 @media screen and (max-width: 728px) {
   .tavel-agent .agent-sec {
     -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
   .tavel-agent .agent-sec .agent {
     margin-bottom: 3rem;
@@ -528,5 +529,163 @@ p {
 
 .tavel-agent .agent-sec p {
   color: #666;
+}
+.recent-tour {
+  margin: 0 auto;
+  margin-bottom: 10rem;
+}
+
+.grid-col3 {
+  grid-gap: 2rem;
+}
+
+.tour-heading {
+  padding: 3rem 0;
+}
+
+.tour-content {
+  background: #0f3285;
+  padding: 2rem 1rem;
+  text-align: left;
+  color: #ffffff;
+}
+
+.tour-content h3 {
+  font-size: 1.3rem;
+  margin-left: 0.7rem;
+}
+
+.tour-content i {
+  color: #cecece;
+  padding: 0.5rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.tour-content-head {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 1rem;
+}
+
+.night {
+  margin-left: 5rem;
+}
+
+.calender {
+  margin-left: 6rem;
+}
+
+.plan {
+  padding: 5rem;
+  background: #212529;
+}
+
+.plan-1 h2 {
+  font-size: 3.3rem;
+  color: #ffffff;
+}
+
+.plan-text {
+  color: #84a4ac;
+  margin: 3rem 0;
+}
+
+.client-main {
+  margin-bottom: 2rem;
+}
+
+.client-main h2 {
+  padding: 5rem 0;
+}
+
+.client-main i {
+  margin-left: 18rem;
+  margin-right: 18rem;
+  color: #ff9100;
+  font-size: 3rem;
+}
+
+.client-text {
+  color: #212529;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 4rem;
+  line-height: 1rem;
+}
+
+.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-left: 3rem;
+  width: 50rem;
+}
+
+.profile-pic img {
+  border-radius: 50%;
+}
+
+.profile-text {
+  padding-left: 2rem;
+}
+
+.profile-text h4 {
+  font-size: 1rem;
+  margin-left: 2rem;
+  color: rgba(255, 0, 0, 0.753);
+}
+
+.profile-text blockquote {
+  color: #212529;
+  font-size: 0.8rem;
+}
+
+@media all and (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+  .grid-col3 {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .grid-col2 {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .profile {
+    margin: 1rem auto;
+    width: 100%;
+  }
+  .client-main {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .client-main i {
+    width: 100%;
+    margin: 0;
+  }
+  .plan {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .plan-1 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .plan-1 h2 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  img {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
