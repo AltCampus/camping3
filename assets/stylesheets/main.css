@@ -725,6 +725,34 @@ li:hover {
   display: none;
 }
 
+.gallery img {
+  width: 100%;
+}
+
+.gallery img:hover {
+  -webkit-box-shadow: 0.3rem 0.3rem 3rem 0.3rem #1e282f;
+          box-shadow: 0.3rem 0.3rem 3rem 0.3rem #1e282f;
+}
+
+.gallery h2 {
+  text-align: center;
+}
+
+.pad3 {
+  margin: 2rem 0;
+}
+
+.pad4 {
+  margin: 2rem 0;
+}
+
+.hero2 {
+  background: url("../media/banner.jpg") no-repeat;
+  height: 16rem;
+  background-size: cover;
+  color: #fff;
+}
+
 @media all and (max-width: 768px) {
   .hero {
     background: url("../media/banner.jpg") no-repeat;
