@@ -367,58 +367,6 @@ p {
   letter-spacing: 0.04rem;
 }
 
-.agent-main {
-  margin: 0 auto;
-  margin-bottom: 10rem;
-}
-
-.agent-heading {
-  padding: 2rem 0;
-}
-
-.img-agent {
-  -webkit-box-shadow: 0 0 30px 3px #868686;
-          box-shadow: 0 0 30px 3px #868686;
-}
-
-.agent {
-  color: orange;
-  letter-spacing: 0.1rem;
-  font-size: 0.9rem;
-  padding-top: 0.8rem;
-}
-
-.agent-name {
-  font-size: 1.3rem;
-}
-
-.agent-text {
-  padding: 0 2.2rem;
-  font-weight: 300;
-  color: #9c9c9c;
-}
-
-.agent-social {
-  padding: 2rem 1rem;
-  font-size: 0.8rem;
-}
-
-.agent-social-f {
-  color: #3b5998;
-}
-
-.agent-social-t {
-  color: #1da1f2;
-}
-
-.agent-social-g {
-  color: #f44336;
-}
-
-.grid-col3 {
-  grid-gap: 0;
-}
-
 .recent-tour {
   margin: 0 auto;
   margin-bottom: 10rem;
