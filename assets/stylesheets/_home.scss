@@ -1,4 +1,196 @@
 // Abhinav
 // prateek
 // Shivam
+
+
+// travel Agent
+.agent-main{
+    margin: 0 auto;
+    margin-bottom: 10rem;
+}
+.agent-heading{
+    padding: 2rem 0;
+}
+.img-agent{
+    box-shadow: 0 0 30px 3px rgb(134, 134, 134);
+}
+.agent{
+    color: orange;
+    letter-spacing: 0.1rem;
+    font-size: 0.9rem;
+    padding-top: 0.8rem;
+}
+.agent-name{
+    font-size: 1.3rem;
+}
+.agent-text{
+    padding: 0 2.2rem;
+    font-weight: 300;
+    color: rgb(156, 156, 156);
+}
+.agent-social{
+    padding: 2rem 1rem;
+    font-size: 0.8rem;
+}
+.agent-social-f{
+    color: rgb(59, 89, 152);
+}
+.agent-social-t{
+    color: rgb(29, 161, 242);
+}
+.agent-social-g{
+    color: rgb(244, 67, 54);
+}
+.grid-col3{
+    grid-gap: 0;
+}
+
+// Our Recent Tour
+
+.recent-tour{
+    margin: 0 auto;
+    margin-bottom: 10rem;
+}
+.grid-col3{
+    grid-gap: 2rem;
+}
+.tour-heading{
+    padding: 3rem 0;
+}
+.tour-content{
+    background: $tour-content-bg;
+    padding: 2rem 1rem;
+    text-align: left;
+    color: $textLight;
+    h3{
+        font-size: 1.3rem;
+        margin-left: 0.7rem;
+    }
+    i{
+        color: $tour-content;
+        padding: 0.5rem;
+        font-weight: 300;
+        cursor: pointer;
+    }
+}
+.tour-content-head{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 1rem;
+}
+.night{
+    margin-left: 5rem;
+}
+.calender{
+    margin-left: 6rem;
+}
+
+// Plan Holiday
+
+.plan{
+    padding: 5rem;
+    background: #212529;
+}
+.plan-1{
+    h2{
+        font-size: 3.3rem;
+        color: $textLight;
+    }
+}
+.plan-text{
+    color: rgb(132, 164, 172);
+    margin: 3rem 0;
+}
+
+// Client's text
+
+.client-main{
+    h2{
+        padding: 5rem 0;
+    }
+    i{
+        margin-left: 18rem;
+        margin-right: 18rem;
+        color: rgb(255, 145, 0);
+        font-size: 3rem;
+    }
+    margin-bottom: 2rem;
+}
+.client-text{
+    color: #212529;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 4rem;
+    line-height: 1rem;
+}
+.profile{
+    display: flex;
+    margin-top: 2rem; 
+    justify-content: center;
+    margin-left: 3rem;
+    width: 50rem;
+}
+.profile-pic{
+    img{
+    border-radius: 50%;
+    }
+}
+.profile-text{
+    padding-left: 2rem;
+    h4{
+        font-size: 1rem;
+        margin-left: 2rem; 
+        color: rgba(255, 0, 0, 0.753);
+    }
+    blockquote{
+        color: #212529;
+        font-size: 0.8rem;
+    }
+}
+@media all and (max-width:768px){
+    body{
+        font-size: 12px;
+    }
+    .grid-col3{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .grid-col2{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .profile{
+        margin: 1rem auto;
+        width: 100%;
+    }
+    .client-main{
+        width: 100%;
+        margin: 0 auto;
+        i{
+            width: 100%;
+            margin: 0;
+        }
+    }
+    .plan{
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .plan-1{
+        width: 100%;
+        margin: 0 auto;
+        h2{
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+    img{
+        width: 100%;
+        
+    }
+}
+
+
+
+
 // Abhinav

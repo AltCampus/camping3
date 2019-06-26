@@ -23,9 +23,9 @@
   width: 100%;
   padding: 0.8rem 1rem;
   border: 1px solid #fff;
-  color: $textDark;
+  color: $textLight;
   &::placeholder {
-    color: $textDark;
+    color: $textLight;
     font-size: 0.9rem;
   }
 }
