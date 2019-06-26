@@ -20,18 +20,12 @@ h4 {
   font-size: 1.5rem;
 }
 h5 {
-<<<<<<< HEAD
   font-size: 1.2rem;
 }
 h6 {
-  font-size: 0.8rem;
-=======
   font-size: 1rem;
 }
-h6 {
-  font-size: 0.75rem;
->>>>>>> develop
-}
+
 h1,
 h2,
 h3,
@@ -85,7 +79,6 @@ p {
 .img-responsive {
   width: 100%;
   height: auto;
-<<<<<<< HEAD
 }
 @media screen and (max-width: 728px) {
   html {
@@ -100,7 +93,12 @@ p {
 }
 .fa-google-plus {
   color: #cc3333;
-=======
   vertical-align: top;
->>>>>>> develop
+}
+//media query
+@media all and (max-width: 768px) {
+  html {
+    font-size: 14px;
+    line-height: 1.5;
+  }
 }
