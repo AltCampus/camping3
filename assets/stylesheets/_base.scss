@@ -79,3 +79,8 @@ p {
   width: 100%;
   height: auto;
 }
+@media screen and (max-width: 728px) {
+  html {
+    font-size: 14px;
+  }
+}

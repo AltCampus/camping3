@@ -1,7 +1,14 @@
 // Abhinav
 // prateek
 .explore-wrapper {
+  .explore-cards {
+    @media screen and (max-width: 728px) {
+      grid-template-columns: 1fr;
+      grid-gap: 0;
+    }
+  }
   text-align: center;
+  margin: 2.8rem 0 10rem 0;
   .exp-card {
     line-height: 3.7;
     p {
@@ -9,8 +16,21 @@
       color: #666;
     }
   }
-  .explore-imgcard {
-    display: flex;
+}
+.explore-imgcard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  line-height: 4;
+  grid-column-gap: 8rem;
+  p {
+    line-height: 1.5;
+    color: #666;
+  }
+  .exp-imgcard:nth-child(even) {
+  }
+  @media screen and (max-width: 728px) {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
 // Shivam
