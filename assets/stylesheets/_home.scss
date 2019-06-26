@@ -1,5 +1,105 @@
 // Abhinav
 // prateek
+.explore-wrapper {
+  h2 {
+    margin: 5rem 0;
+  }
+  .explore-cards {
+    @media screen and (max-width: 728px) {
+      grid-template-columns: 1fr;
+      grid-gap: 0;
+    }
+  }
+  text-align: center;
+  margin: 2.8rem 0 10rem 0;
+  .exp-card {
+    line-height: 3;
+    p {
+      line-height: 1.5;
+      color: $paraLight;
+    }
+  }
+}
+.explore-imgcard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  line-height: 4;
+  grid-column-gap: 8rem;
+  p {
+    line-height: 1.5;
+    color: $paraLight;
+  }
+  .fa {
+    margin: 1rem 0;
+  }
+  .exp-imgcard:nth-child(even) {
+  }
+  @media screen and (max-width: 728px) {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+.blue-data {
+  background-color: #103385;
+  margin-top: 3rem;
+  .blue-card-sec {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    @media screen and (max-width: 728px) {
+      grid-template-columns: 1fr;
+    }
+    .blue-card {
+      .fa {
+        font-size: 2.3rem;
+      }
+      padding: 6rem 0 6rem 0;
+      text-align: center;
+      color: $textLight;
+      @media screen and (max-width: 728px) {
+        padding: 4rem 0 3rem 0;
+      }
+    }
+  }
+}
+.tavel-agent {
+  margin: 4rem 0;
+  .wrapper {
+    padding: 0 0;
+  }
+  h1 {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .agent-post {
+    font-size: 0.67em;
+    color: $textDark;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 1rem;
+  }
+  .agent-sec {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    .agent-post {
+      color: $textDark;
+    }
+    @media screen and (max-width: 728px) {
+      grid-template-columns: 1fr;
+      .agent {
+        margin-bottom: 3rem;
+      }
+    }
+    ul li {
+      display: inline-grid;
+      padding: 0.8rem;
+    }
+    p {
+      color: $paraLight;
+    }
+  }
+}
+
 // Shivam
 
 // Our Recent Tour
