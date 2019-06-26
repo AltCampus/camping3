@@ -25,6 +25,10 @@ h5 {
 h6 {
   font-size: 1rem;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> develop
 h1,
 h2,
 h3,
@@ -93,4 +97,14 @@ p {
 .fa-google-plus {
   color: #cc3333;
   vertical-align: top;
+<<<<<<< HEAD
+=======
+}
+//media query
+@media all and (max-width: 768px) {
+  html {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+>>>>>>> develop
 }

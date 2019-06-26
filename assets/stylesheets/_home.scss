@@ -1,4 +1,75 @@
-// Abhinav
+// Abhinav header
+.header {
+  padding: 1.5rem 0;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0 0.15rem 0.1rem 0 rgba(0, 0, 0, 0.05);
+}
+.logo {
+  font-size: 2rem;
+  font-weight: 400;
+  color: $textLight;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f0f0f0;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 1rem 1rem;
+  z-index: 1;
+  &:hover {
+    color: $textDark;
+  }
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: $textDark;
+}
+.menu-item {
+  margin-left: 1.5rem;
+}
+.menu-link {
+  text-decoration: none;
+  color: $textLight;
+  &:hover {
+    color: $textDark;
+  }
+}
+.colordark {
+  color: $textDark;
+}
+.colour {
+  color: rgb(51, 50, 50);
+}
+//hero section
+.hero {
+  background: url("../media/banner.jpg") no-repeat;
+  padding: 12rem 0;
+  background-size: cover;
+  color: #fff;
+  background-position: center;
+}
+.hero-text {
+  margin-top: 2rem;
+  color: $textDark;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.hero-heading {
+  line-height: 1.2;
+  font-size: 2.8rem;
+}
+.hero-text2 {
+  font-weight: 300;
+  font-size: 0.9rem;
+  margin-top: 0.6rem;
+  margin-bottom: 1.5rem;
+}
 // prateek
 .explore-wrapper {
   h2 {
@@ -101,6 +172,166 @@
 }
 
 // Shivam
+// Abhinav footer
+.footer-content {
+  color: $footerDark;
+}
+.foot-nav a,
+li {
+  text-decoration: none;
+  color: $footerDark;
+  margin-bottom: 0.45rem;
+  &:hover {
+    color: $footerLight;
+  }
+}
+.footer-item {
+  margin: 4rem 1rem;
+}
+.footer-item h4 {
+  margin-bottom: 1.3rem;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+.footer-item p {
+  margin-bottom: 0.7rem;
+}
+.ls-footer {
+  background-color: #242c33;
+  padding: 2rem 0.5rem;
+}
+.footer-text {
+  color: $footerDark;
+}
+.footer-text a {
+  text-decoration: none;
+  color: $footerDark;
+  &:hover {
+    color: $footerLight;
+  }
+}
+.footer-icons a {
+  padding: 0 0.7rem;
+}
+.mailbox1 {
+  background-color: #1e282f;
+  padding: 1rem 1.5rem;
+  border: 1px solid #72818d;
+  border-radius: 4px;
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.mailbox2 {
+  background-color: #1e282f;
+  padding: 0.9rem 2rem 1.02rem 2rem;
+  border: 0.7px solid #72818d;
+  border-radius: 4px;
+  border-left: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.i0 {
+  color: $footerDark;
+  font-size: 1rem;
+}
+.i4 {
+  color: magenta;
+}
+.toggle {
+  display: none;
+}
+#drop {
+  display: none;
+}
+
+//mediaquery
+@media all and (max-width: 768px) {
+  .hero {
+    background: url("../media/banner.jpg") no-repeat;
+    padding: 8rem 0;
+    background-size: cover;
+    color: #fff;
+    background-position: center;
+  }
+  .footer-item {
+    margin: 1rem 1rem 1rem 1rem;
+  }
+  .footer-text {
+    text-align: center;
+  }
+  .mailbox1 {
+    background-color: #1e282f;
+    padding: 1rem 1rem;
+    border: 1px solid #72818d;
+    border-radius: 4px;
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .mailbox2 {
+    background-color: #1e282f;
+    padding: 1.02rem 1rem 1.02rem 2rem;
+    border: 0.7px solid #72818d;
+    border-radius: 4px;
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .menu {
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+    position: absolute;
+    width: 80%;
+    background: #212529;
+    top: 5rem;
+    left: 2.5rem;
+    height: 25vh;
+  }
+  .pad {
+    margin-bottom: 2rem;
+  }
+  .pad2 {
+    margin-top: 2rem;
+  }
+  .menu .menu-link {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    color: $textLight;
+  }
+  .toggle {
+    display: block;
+    padding: 7px 20px;
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+    float: right;
+    background-color: #212529;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    margin-top: 0.7em;
+  }
+  #drop:checked ~ .menu {
+    display: flex;
+  }
+  .i1,
+  .i2,
+  .i3,
+  .i4 {
+    text-align: center;
+  }
+  .footer-icons {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .footer-icons a {
+    padding: 0 0.7rem;
+  }
+}
 
 // Our Recent Tour
 

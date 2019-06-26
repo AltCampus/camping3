@@ -22,7 +22,11 @@
 }
 
 @media all and (max-width: 768px) {
-  .grid-col1 {
+  .grid-col2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .grid-col3 {
     display: grid;
     grid-template-columns: 1fr;
   }
