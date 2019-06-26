@@ -71,6 +71,106 @@
   margin-bottom: 1.5rem;
 }
 // prateek
+.explore-wrapper {
+  h2 {
+    margin: 5rem 0;
+  }
+  .explore-cards {
+    @media screen and (max-width: 728px) {
+      grid-template-columns: 1fr;
+      grid-gap: 0;
+    }
+  }
+  text-align: center;
+  margin: 2.8rem 0 10rem 0;
+  .exp-card {
+    line-height: 3;
+    p {
+      line-height: 1.5;
+      color: $paraLight;
+    }
+  }
+}
+.explore-imgcard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  line-height: 4;
+  grid-column-gap: 8rem;
+  p {
+    line-height: 1.5;
+    color: $paraLight;
+  }
+  .fa {
+    margin: 1rem 0;
+  }
+  .exp-imgcard:nth-child(even) {
+  }
+  @media screen and (max-width: 728px) {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+.blue-data {
+  background-color: #103385;
+  margin-top: 3rem;
+  .blue-card-sec {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    @media screen and (max-width: 728px) {
+      grid-template-columns: 1fr;
+    }
+    .blue-card {
+      .fa {
+        font-size: 2.3rem;
+      }
+      padding: 6rem 0 6rem 0;
+      text-align: center;
+      color: $textLight;
+      @media screen and (max-width: 728px) {
+        padding: 4rem 0 3rem 0;
+      }
+    }
+  }
+}
+.tavel-agent {
+  margin: 4rem 0;
+  .wrapper {
+    padding: 0 0;
+  }
+  h1 {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .agent-post {
+    font-size: 0.67em;
+    color: $textDark;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 1rem;
+  }
+  .agent-sec {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    .agent-post {
+      color: $textDark;
+    }
+    @media screen and (max-width: 728px) {
+      grid-template-columns: 1fr;
+      .agent {
+        margin-bottom: 3rem;
+      }
+    }
+    ul li {
+      display: inline-grid;
+      padding: 0.8rem;
+    }
+    p {
+      color: $paraLight;
+    }
+  }
+}
+
 // Shivam
 // Abhinav footer
 .footer-content {
@@ -115,7 +215,7 @@ li {
 }
 .mailbox1 {
   background-color: #1e282f;
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
   border: 1px solid #72818d;
   border-radius: 4px;
   border-right: none;
@@ -232,3 +332,149 @@ li {
     padding: 0 0.7rem;
   }
 }
+
+// Our Recent Tour
+
+.recent-tour {
+  margin: 0 auto;
+  margin-bottom: 10rem;
+}
+.grid-col3 {
+  grid-gap: 2rem;
+}
+.tour-heading {
+  padding: 3rem 0;
+}
+.tour-content {
+  background: $tour-content-bg;
+  padding: 2rem 1rem;
+  text-align: left;
+  color: $textLight;
+  h3 {
+    font-size: 1.3rem;
+    margin-left: 0.7rem;
+  }
+  i {
+    color: $tour-content;
+    padding: 0.5rem;
+    font-weight: 300;
+    cursor: pointer;
+  }
+}
+.tour-content-head {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 1rem;
+}
+.night {
+  margin-left: 5rem;
+}
+.calender {
+  margin-left: 6rem;
+}
+
+// Plan Holiday
+
+.plan {
+  padding: 5rem;
+  background: #212529;
+}
+.plan-1 {
+  h2 {
+    font-size: 3.3rem;
+    color: $textLight;
+  }
+}
+.plan-text {
+  color: rgb(132, 164, 172);
+  margin: 3rem 0;
+}
+
+// Client's text
+
+.client-main {
+  h2 {
+    padding: 5rem 0;
+  }
+  i {
+    margin-left: 18rem;
+    margin-right: 18rem;
+    color: rgb(255, 145, 0);
+    font-size: 3rem;
+  }
+  margin-bottom: 2rem;
+}
+.client-text {
+  color: #212529;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 4rem;
+  line-height: 1rem;
+}
+.profile {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  margin-left: 3rem;
+  width: 50rem;
+}
+.profile-pic {
+  img {
+    border-radius: 50%;
+  }
+}
+.profile-text {
+  padding-left: 2rem;
+  h4 {
+    font-size: 1rem;
+    margin-left: 2rem;
+    color: rgba(255, 0, 0, 0.753);
+  }
+  blockquote {
+    color: #212529;
+    font-size: 0.8rem;
+  }
+}
+@media all and (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+  .grid-col3 {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .grid-col2 {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .profile {
+    margin: 1rem auto;
+    width: 100%;
+  }
+  .client-main {
+    width: 100%;
+    margin: 0 auto;
+    i {
+      width: 100%;
+      margin: 0;
+    }
+  }
+  .plan {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .plan-1 {
+    width: 100%;
+    margin: 0 auto;
+    h2 {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+  img {
+    width: 100%;
+  }
+}
+
+// Abhinav
