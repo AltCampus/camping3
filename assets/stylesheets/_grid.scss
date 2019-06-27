@@ -1,5 +1,5 @@
 .wrapper {
-  max-width: 1300px;
+  max-width: 1150px;
   width: 100%;
   margin: 0 auto;
   padding: 0 30px;
@@ -22,7 +22,11 @@
 }
 
 @media all and (max-width: 768px) {
-  .grid-col1 {
+  .grid-col2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .grid-col3 {
     display: grid;
     grid-template-columns: 1fr;
   }

@@ -1,10 +1,10 @@
 // Button Styles
 .btn {
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
   color: $textLight;
   background: #ef9632;
   border-radius: 4px;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   font-weight: 300;
   letter-spacing: 0.04rem;
   cursor: pointer;
@@ -13,7 +13,7 @@
   }
 }
 .btn-primary {
-  border: 1px solid $textLight;
+  border: none;
   color: $textLight;
 }
 
@@ -23,9 +23,9 @@
   width: 100%;
   padding: 0.8rem 1rem;
   border: 1px solid #fff;
-  color: $textDark;
+  color: $textLight;
   &::placeholder {
-    color: $textDark;
+    color: $textLight;
     font-size: 0.9rem;
   }
 }
@@ -52,4 +52,12 @@
   font-size: 0.9rem;
   font-weight: 300;
   letter-spacing: 0.04rem;
+}
+.footer {
+  background-color: #1e282f;
+  color: $textLight;
+}
+.fa {
+  font-size: 2rem;
+  color: $textDark;
 }
