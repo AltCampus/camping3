@@ -1043,6 +1043,12 @@ li:hover {
   letter-spacing: 1px;
 }
 
+.contacts .input-data input:focus,
+.contacts .input-data textarea:focus {
+  border: 2px solid #106883;
+  outline: 0;
+}
+
 .contacts .input-data textarea {
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;

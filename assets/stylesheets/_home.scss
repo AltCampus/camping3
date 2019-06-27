@@ -498,6 +498,7 @@ li {
     width: 100%;
   }
 }
+//contact Section
 .contacts {
   margin: 1.5rem 0;
   text-align: center !important;
@@ -523,6 +524,10 @@ li {
       border-radius: 0.25rem;
       font-size: 0.9em;
       letter-spacing: 1px;
+      &:focus {
+        border: 2px solid #106883;
+        outline: 0;
+      }
     }
     textarea {
       grid-column: 1/3;
@@ -541,6 +546,7 @@ li {
     border: 0;
   }
 }
+//map
 .map {
   margin-top: 6vh;
   iframe {
