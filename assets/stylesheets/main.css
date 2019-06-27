@@ -138,7 +138,7 @@ table {
 *::after,
 *::before {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
@@ -211,11 +211,11 @@ p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .flex-start {
@@ -223,11 +223,11 @@ p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .flex-center {
@@ -235,11 +235,11 @@ p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .align-start {
@@ -247,8 +247,8 @@ p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .img-responsive {
@@ -292,24 +292,24 @@ p {
 .grid-col2 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr) [2];
-  grid-template-columns: repeat(2, 1fr);
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
 }
 
 .grid-col3 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr) [3];
-  grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
 }
 
 .grid-col4 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr) [4];
-  grid-template-columns: repeat(4, 1fr);
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem;
 }
 
@@ -318,13 +318,13 @@ p {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
   }
   .grid-col3 {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
   }
 }
 
@@ -413,7 +413,7 @@ p {
   position: absolute;
   width: 100%;
   -webkit-box-shadow: 0 0.15rem 0.1rem 0 rgba(0, 0, 0, 0.05);
-  box-shadow: 0 0.15rem 0.1rem 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0.15rem 0.1rem 0 rgba(0, 0, 0, 0.05);
 }
 
 .logo {
@@ -433,7 +433,7 @@ p {
   background-color: #f0f0f0;
   min-width: 160px;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   padding: 1rem 1rem;
   z-index: 1;
 }
@@ -507,7 +507,7 @@ p {
 @media screen and (max-width: 728px) {
   .explore-wrapper .explore-cards {
     -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     grid-gap: 0;
   }
 }
@@ -525,7 +525,7 @@ p {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   line-height: 4;
   grid-column-gap: 8rem;
 }
@@ -544,7 +544,7 @@ p {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
   }
 }
 
@@ -556,14 +556,14 @@ p {
 .blue-data .blue-card-sec {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr) [4];
-  grid-template-columns: repeat(4, 1fr);
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
 }
 
 @media screen and (max-width: 728px) {
   .blue-data .blue-card-sec {
     -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
   }
 }
 
@@ -607,8 +607,8 @@ p {
 .tavel-agent .agent-sec {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr) [3];
-  grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
   text-align: center;
 }
 
@@ -619,7 +619,7 @@ p {
 @media screen and (max-width: 728px) {
   .tavel-agent .agent-sec {
     -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
   }
   .tavel-agent .agent-sec .agent {
     margin-bottom: 3rem;
@@ -788,11 +788,11 @@ li:hover {
   .menu {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     display: none;
     position: absolute;
     width: 80%;
@@ -936,8 +936,8 @@ li:hover {
   display: flex;
   margin-top: 2rem;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-left: 3rem;
   width: 50rem;
 }
@@ -967,12 +967,12 @@ li:hover {
   }
   .grid-col3 {
     -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     width: 100%;
   }
   .grid-col2 {
     -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     width: 100%;
   }
   .profile {
@@ -1002,6 +1002,79 @@ li:hover {
   }
   img {
     width: 100%;
+  }
+}
+
+.contacts {
+  margin: 1.5rem 0;
+  text-align: center !important;
+}
+
+.contacts p {
+  color: #666;
+  margin: 1.5rem 0;
+}
+
+.contacts .input-data {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  text-align: left;
+}
+
+@media all and (max-width: 768px) {
+  .contacts .input-data {
+    display: block;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+.contacts .input-data input,
+.contacts .input-data textarea {
+  width: 90%;
+  margin-bottom: 2rem;
+  padding: 0.9em;
+  color: #495057;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+
+.contacts .input-data textarea {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/3;
+}
+
+.contacts button {
+  display: -ms-grid;
+  display: grid;
+  background: #181a1d;
+  padding: 10px 30px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #fff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 500;
+  border: 0;
+}
+
+.map {
+  margin-top: 6vh;
+}
+
+.map iframe {
+  width: 60%;
+  height: 50vh;
+}
+
+@media screen and (max-width: 768px) {
+  .map iframe {
+    width: 80%;
   }
 }
 /*# sourceMappingURL=main.css.map */
